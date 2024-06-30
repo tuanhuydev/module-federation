@@ -1,0 +1,15 @@
+{
+  "name": "app-shell",
+  "workspaces": [
+    "apps/app1",
+    "shell"
+  ],
+  "scripts": {
+    "start": "lerna run start --parallel",
+    "clean": "lerna clean"
+  },
+  "dependencies": {
+    "lerna": "^8.1.6",
+    "tuanhuydev-test-package": "^0.0.10"
+  }
+}

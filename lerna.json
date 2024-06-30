@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "npmClient": "npm",
+  "packages": [
+    "apps/app1",
+    "shell"
+  ],
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
+}
